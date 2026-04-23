@@ -6,7 +6,7 @@ load_dotenv()
 from groq import Groq
 import streamlit as st 
 
-api_key=st.secrets.get["GROQ_API_KEY"]
+api_key=st.secrets.get("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
 #with open("constitutionfile.txt","r") as f:
