@@ -5,8 +5,13 @@ load_dotenv()
 
 from groq import Groq
 import streamlit as st 
+st.write("Secret exists:", "GROQ_API_KEY" in st.secrets)
 
-api_key=st.secrets.get("GROQ_API_KEY")
+try:
+    api_key = st.secrets["GROQ_API_KEY"]
+except:
+    api_key = os.environ.get("GROQ_API_KEY")
+
 client = Groq(api_key=api_key)
 
 #with open("constitutionfile.txt","r") as f:
