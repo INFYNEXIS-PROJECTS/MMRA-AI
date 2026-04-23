@@ -5,7 +5,7 @@ load_dotenv()
 
 from groq import Groq
 import streamlit as st 
-st.write("Secret exists:", "GROQ_API_KEY" in st.secrets)
+
 
 try:
     api_key = st.secrets["GROQ_API_KEY"]
