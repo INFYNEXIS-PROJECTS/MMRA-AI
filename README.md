@@ -23,4 +23,4 @@ and a copy button that allows you to copy response to clipboard
 DO NOT take the response of MMRA AI solely as a legal advice. It would be best to consult a professional before taking actions.
 Rather, it is okay to use the chat bot to clarify some confusions and loosening strings with the law.
 
-Built by [Yaw Oti Boachie](github.com/Yaotib)
+Built by [Yaw Oti Boachie](https://github.com/Yaotib)
